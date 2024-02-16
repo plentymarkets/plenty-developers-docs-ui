@@ -264,7 +264,11 @@ body:has(header .navbar .container-fluid #banner) {
 
 .dropdown-menu.submenu-item > span {
   display: block;
-  padding: 1rem 0;
+  /*padding: 1rem 0;*/
+}
+
+.dropdown-menu.submenu-item > span:not(:first-of-type) {
+  margin-top: 15px;
 }
 
 .dropdown-menu.theme-dropdown {
@@ -305,6 +309,8 @@ button:focus {
 
 .navbar .left .logo-knowledge img {
   height: 80px!important;
+  margin-top: -15px;
+  margin-bottom: -15px;
 }
 
 .navbar .left .logo:last-child img {

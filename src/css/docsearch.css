@@ -95,7 +95,7 @@ svg.DocSearch-Search-Icon path{
 }
 
 .DocSearch-Button-Keys {
-    display: flex
+    display: none
 }
 
 .DocSearch-Button-Key {
