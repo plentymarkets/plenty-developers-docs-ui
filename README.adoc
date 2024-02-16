@@ -1,5 +1,5 @@
 = Antora Default UI
-// Settings:
+// Settings: test
 :experimental:
 :hide-uri-scheme:
 // Project URLs:
