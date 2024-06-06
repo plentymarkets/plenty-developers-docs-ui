@@ -49,4 +49,4 @@ jobs:
           token: ${{ secrets.PUBLIC_PAT_CICD4_PUBLIC }}
           repository: plentymarkets/plenty-developers-docs
           event-type: UIBundleUpdate4Preview
-          client-payload: '{ "repository": "${{github.repository}}" }'
+          client-payload: '{ "repository": "${{github.repository}}", "branch":"preview" }'
